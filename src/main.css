@@ -4,6 +4,9 @@
   --secondary: #fe9f15;
 }
 
+.dropdown button {
+  border: none;
+}
 .navbar-toggler {
   border: none !important;
   outline: none !important;
