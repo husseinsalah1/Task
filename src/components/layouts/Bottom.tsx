@@ -1,6 +1,6 @@
 import { Container, Image } from "react-bootstrap";
-import cart from "../assets/imgs/Cart.png";
-import home from "../assets/imgs/Home 3.png";
+import cart from "../../assets/imgs/Cart.png";
+import home from "../../assets/imgs/Home 3.png";
 const Bottom = () => {
   const data = [
     {
