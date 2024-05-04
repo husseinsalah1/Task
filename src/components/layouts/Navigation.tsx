@@ -1,6 +1,7 @@
 import { Container, Dropdown, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/imgs/logo.png";
 import flag from "../../assets/imgs/Flags.png";
+import down from "../../assets/imgs/Down 2.png";
 const Navigation = () => {
   const navbarData = [
     {
@@ -20,12 +21,13 @@ const Navigation = () => {
     <Navbar bg="" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-          <Dropdown>
-            <Dropdown.Toggle className="select" id="dropdown-basic">
-              <img src={flag} alt="Icon" className="icon" />{" "}
-              <span style={{ margin: "0px" }}>الامارات</span>
-            </Dropdown.Toggle>
-          </Dropdown>
+          <div className="flag">
+            <Image src={flag} />
+            <span style={{ margin: "0px" }}>الامارات</span>
+            <i>
+              <Image src={down} />
+            </i>
+          </div>
         </Navbar.Brand>
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Brand href="#home">

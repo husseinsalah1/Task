@@ -3,9 +3,45 @@
   --primaryColor: #007bbf;
   --secondary: #fe9f15;
 }
-
+* {
+  font-family: "Cairo" !important;
+}
 .dropdown button {
   border: none;
+}
+
+.flag {
+  border-radius: 10px;
+  width: 120px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  direction: rtl;
+  appearance: none; /* Disable native UI */
+  background-position: 10px center; /* Position it to the left */
+  direction: rtl;
+  background: linear-gradient(
+    0.4turn,
+    #004e68,
+    #004e69,
+    #1f8cb0,
+    #4bbbe0,
+    #2c88a7
+  );
+  position: relative;
+}
+.flag i img {
+  width: 25px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+.flag img {
+  width: 25px;
+  margin-left: 5px;
+}
+.flag span {
+  font-size: 14px;
 }
 .navbar-toggler {
   border: none !important;
@@ -28,9 +64,9 @@
   padding: 10px;
   background-color: #f1f1f1;
 }
-.search_box svg {
+.search_box i {
   position: absolute;
-  top: 13px;
+  top: 8px;
   left: 25px;
 }
 .offer_img img {
@@ -50,10 +86,19 @@
 
 .games_section .game_image {
   background-color: var(--primaryColor);
-  overflow: hidden;
   border-radius: 16px;
+  margin-bottom: 5px;
+  height: 72px;
+}
+.games_section .game_image img {
   width: 66px;
   height: 66px;
+  overflow: hidden;
+  transform: scale3d(1, 1.2, 1);
+}
+.games_section .game_btn {
+  display: flex;
+  justify-content: start;
 }
 .games_section .col-3 {
   padding: 0;
@@ -70,6 +115,7 @@
   color: black;
   padding: 10px;
   border: none;
+  font-size: 12px;
 }
 
 .games_section button:hover {
@@ -133,6 +179,7 @@
 
 .my_swiper {
   border-radius: 40px 0px 32px 0px;
+  padding-left: 0px !important;
 }
 .my_swiper .swipe {
   margin-top: var(--marginTop);
@@ -140,17 +187,6 @@
 }
 
 .select {
-  appearance: none; /* Disable native UI */
-  background-position: 10px center; /* Position it to the left */
-  direction: rtl;
-  background: linear-gradient(
-    0.4turn,
-    #004e68,
-    #004e69,
-    #1f8cb0,
-    #4bbbe0,
-    #2c88a7
-  );
 }
 
 .select img {
