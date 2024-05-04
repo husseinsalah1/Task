@@ -4,6 +4,17 @@
   --secondary: #fe9f15;
 }
 
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
 .search_box {
   margin-top: var(--marginTop);
   direction: rtl;
@@ -54,11 +65,20 @@
   background-color: var(--secondary);
   border-color: var(--secondary);
   color: black;
+  padding: 10px;
+  border: none;
 }
 
-.games_section .my_span {
+.games_section button:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: black;
+}
+
+.my_span {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .swiper-wrapper .swiper-slide {

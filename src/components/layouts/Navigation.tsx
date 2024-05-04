@@ -23,10 +23,11 @@ const Navigation = () => {
           <Dropdown>
             <Dropdown.Toggle className="select" id="dropdown-basic">
               <img src={flag} alt="Icon" className="icon" />{" "}
-              <span style={{ margin: "10px" }}>الامارات</span>
+              <span style={{ margin: "0px" }}>الامارات</span>
             </Dropdown.Toggle>
           </Dropdown>
-        </Navbar.Brand>{" "}
+        </Navbar.Brand>
+        <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Brand href="#home">
           <Image src={logo} />
         </Navbar.Brand>
