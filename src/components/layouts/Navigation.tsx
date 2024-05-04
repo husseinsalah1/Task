@@ -1,4 +1,4 @@
-import { Container, Dropdown, Image, Nav, Navbar } from "react-bootstrap";
+import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/imgs/logo.png";
 import flag from "../../assets/imgs/Flags.png";
 import down from "../../assets/imgs/Down 2.png";

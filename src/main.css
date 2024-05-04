@@ -146,6 +146,13 @@
   justify-content: center;
   align-items: center;
 }
+.coupon .img {
+  height: 60px;
+}
+.coupon .img img {
+  width: 50px;
+  height: 66px;
+}
 .coupon .content .offer span {
   background: -webkit-linear-gradient(
     #1f8cb0,
