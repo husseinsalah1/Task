@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Image } from "react-bootstrap";
 
 import offer from "../assets/imgs/بانر.png";
