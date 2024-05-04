@@ -44,7 +44,7 @@ const Games = () => {
           <Button>عرض الكل</Button>
         </Col>
         <Col xs={{ span: 4, offset: 4 }} className="my_span">
-          <span>الالعاب الرائجة</span>
+          <span>الألعاب الرائجة</span>
         </Col>
       </Row>
       <Row className="games">
