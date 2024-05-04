@@ -1,7 +1,7 @@
 import { Container, Image } from "react-bootstrap";
 import cart from "../assets/imgs/Cart.png";
 import home from "../assets/imgs/Home 3.png";
-export default function Bottom() {
+const Bottom = () => {
   const data = [
     {
       image: cart,
@@ -57,4 +57,6 @@ export default function Bottom() {
       </div>
     </div>
   );
-}
+};
+
+export default Bottom;

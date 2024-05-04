@@ -1,4 +1,4 @@
-export default function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <div>
@@ -8,4 +8,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;

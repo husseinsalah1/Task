@@ -6,9 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fancyapps/ui/dist/carousel/carousel.css";
 import SwipeSliders from "./SwipeSliders";
 import Footer from "./layouts/Footer";
-import Bottom from "./Bottom";
+import Bottom from "./layouts/Bottom";
 
-export default function App() {
+const App = () => {
   return (
     <div>
       <Navigation />
@@ -20,4 +20,6 @@ export default function App() {
       <Bottom />
     </div>
   );
-}
+};
+
+export default App;

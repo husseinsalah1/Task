@@ -1,6 +1,6 @@
 import { Button, Image } from "react-bootstrap";
 import copImage from "../assets/imgs/image 23.png";
-export default function MyCard() {
+const MyCard = () => {
   return (
     <div className="coupon">
       <div className="content">
@@ -16,4 +16,6 @@ export default function MyCard() {
       </div>
     </div>
   );
-}
+};
+
+export default MyCard;

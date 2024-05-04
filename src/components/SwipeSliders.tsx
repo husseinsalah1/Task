@@ -7,7 +7,7 @@ import "swiper/css/virtual";
 import MyCard from "./MyCard";
 import { Container } from "react-bootstrap";
 
-export default function SwipeSliders() {
+const SwipeSliders = () => {
   const slides = [
     <MyCard />,
     <MyCard />,
@@ -59,4 +59,6 @@ export default function SwipeSliders() {
       </Container>
     </>
   );
-}
+};
+
+export default SwipeSliders;

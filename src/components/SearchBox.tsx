@@ -1,6 +1,6 @@
 import { Container, Form } from "react-bootstrap";
 
-export default function SearchBox() {
+const SearchBox = () => {
   return (
     <Container className="search_box">
       <svg
@@ -22,4 +22,6 @@ export default function SearchBox() {
       />
     </Container>
   );
-}
+};
+
+export default SearchBox;
